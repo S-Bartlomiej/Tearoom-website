@@ -1,0 +1,136 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+html 
+{
+    
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px; 
+}
+
+.czerwony 
+{
+    color: skyblue;
+}
+
+#obrazek 
+{   
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../grafika/istambul1-1.jpg');
+}
+
+#nazwa 
+{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 5%;
+    opacity: 0;
+}
+
+#start 
+{
+    position: relative;
+    top: 60%;
+    text-align: center;
+}
+
+#start button 
+{
+    font-size: 32px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding: 15px;
+}
+
+#start button:hover 
+{
+    transform: scale(1.3,1.3);
+    border: 3px solid skyblue;
+    color: skyblue;
+}
+
+#przycisk 
+{
+    opacity: 0;
+}
+
+@media (min-width: 320px) and (max-width: 425px)
+{
+
+    #obrazek 
+    {
+        background-position: 50% 30%;
+    }
+
+    #nazwa 
+    {
+        font-size: 68px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #start button 
+    {
+        font-size: 60px;
+    }
+
+    #start 
+    {
+        top: 30%;
+    }
+    
+}
+
+@media (min-width: 425px) and (max-width: 1440px)
+{
+
+    #obrazek 
+    {
+        background-position: 50% 30%;
+    }
+
+    #nazwa 
+    {
+        font-size: 72px;
+    }
+
+    #start button 
+    {
+        font-size: 60px;
+    }
+
+    #start 
+    {
+        top: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+
